@@ -1,0 +1,13 @@
+***** Deployment
+      - declarative updates for pods
+      - multiple replicas of a pod
+      - out new version or rolls back to an earlier version
+***** Service
+      - a logical set of pods together
+      - using labels on the pods
+      - endpoint of other services to refer to
+      - be expsoed outside the cluster
+***** DeamonSet: one copy of the pod per node
+***** Jobs: Specified number of pods successfully terminate
+***** CronJob: jobs on a time-based schedule
+***** StatefulSets: Stateful workloads
